@@ -8,12 +8,19 @@
   <title>Timothée Chabat</title>
   <meta name="description"
     content="Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skils and experience." />
+  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- FontAwesom Provider -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Animate On Scroll library -->
   <link href="css/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Main Stylesheet -->
   <link href="styles/main.css" rel="stylesheet">
+
+  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
 <body id="top">
@@ -88,10 +95,10 @@
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">About</div>
-                  <p style="text-align: justify">I'm french 21 years old computer graphics student at Universté Claude Bernard in Lyon.</p>
+                  <p style="text-align: justify">I'm a french <span class="age"></span> years old computer graphics student at Universté Claude Bernard in Lyon.</p>
                   <p style="text-align: justify">What interest me is 3D rendering, physics simulation and software development. I also appreciate board games, rock climbing
                   and drinking beers with friends. If you are interested in the project I realized or the ones I'm currently involved in,
-                  check up my GitHib and my Linkedin ! </p>
+                  check up my GitHub and my Linkedin ! </p>
                 </div>
               </div>
               <div class="col-lg-6 col-md-12">
@@ -99,7 +106,7 @@
                   <div class="h4 mt-0 title">Basic Information</div>
                   <div class="row">
                     <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-                    <div class="col-sm-8">21</div>
+                    <div class="col-sm-8"><span class="age"></span></div>
                   </div>
                   <div class="row mt-3">
                     <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
@@ -108,10 +115,6 @@
                   <div class="row mt-3">
                     <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
                     <div class="col-sm-8">+33 6 35 38 16 42</div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-                    <div class="col-sm-8">2, Rue des Près Chabrat, Besse, 63610, FR</div>
                   </div>
                   <div class="row mt-3">
                     <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
@@ -125,72 +128,34 @@
       </div>
       <div class="section" id="skill">
         <div class="container">
-          <div class="h4 text-center mb-4 title">Professional Skills (TODO)</div>
+          <div class="h4 text-center mb-4 title">Professional Skills</div>
           <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <div class="card-body">
+            <dic class="card-body">
               <div class="row">
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">C/C++</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 90%;"></div><span class="progress-value">90%</span>
-                    </div>
-                  </div>
+                  <div class="h4 text-center">Programming Languages and API</div>
+                  <ul class="list-inline text-center align-items-center">
+                    <li style="list-style-image:url(https://img.icons8.com/color/24/000000/c-plus-plus-logo.png)" class="align-middle"> C / C++  </li>
+                    <li style="list-style-image:url(./images/opengl2.png)" class="align-middle">OpenGL Core</li>
+                    <li style="list-style-image:url(https://img.icons8.com/color/24/000000/python.png)" class="align-middle">Python</li>
+                    <li style="list-style-image:url(https://img.icons8.com/color/24/000000/javascript.png)" class="align-middle">Javascript</li>
+                    <li style="list-style-image:url(https://img.icons8.com/color/24/000000/java-coffee-cup-logo.png)" class="align-middle">Java</li>
+                  </ul>
                 </div>
+
                 <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">OpenGL</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                    </div>
-                  </div>
+                  <div class="h4 text-center">Tools and others</div>
+                  <ul class="text-center">
+                    <li style="list-style-image:url(./images/git.png)" class="align-middle">Git version control</li>
+                    <li style="list-style-image:url(./images/unity.png)" class="align-middle">Unity Engine</li>
+                    <li style="list-style-image:url(./images/Qt.png)" class="align-middle">Qt and UI design</li>
+                    <li style="list-style-image:url(./images/blender.png)" class="align-middle">Blender</li>
+                    <li style="list-style-image:url(./images/linux.png)" class="align-middle">Linux system</li>
+                  </ul>
                 </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Python</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Unity</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 55%;"></div><span class="progress-value">55%</span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="progress-container progress-primary"><span class="progress-badge">Blender</span>
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
-                        data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
-                        aria-valuemax="100" style="width: 55%;"></div><span class="progress-value">55%</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </dic>
             </div>
           </div>
-        </div>
       </div>
 
       <div class="section" id="portfolio">
@@ -209,10 +174,10 @@
                   <div class="col-md-6">
                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                       <a href="#" data-toggle="modal" data-target="#modal1">
-                        <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image" />
+                        <figure class="cc-effect"><img src="images/raytracing.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">TODO</div>
-                            <p>Web Development</p>
+                            <div class="h4">MONTE-CARLO BASED RAYTRACING</div>
+                            <p>Academic</p>
                           </figcaption>
                         </figure>
                       </a></div>
@@ -228,10 +193,13 @@
 
                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                       <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image" />
-                          <figcaption>
-                            <div class="h4">TODO</div>
-                            <p>Web Development</p>
+                        <figure class="cc-effect">
+                          <video autoplay loop muted playsinline height="360">
+                            <source src="images/robot.webm" type="video/webm">
+                          </video>
+                          <figcaption> 
+                            <div class="h4">SHADING, SHADOWING AND ANIMATION</div>
+                            <p>Academic</p>
                           </figcaption>
                         </figure>
                       </a></div>
@@ -241,20 +209,23 @@
                   <div class="col-md-6">
                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                       <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image" />
+                        <figure class="cc-effect"><img src="images/cquest.png" alt="Image" />
                           <figcaption>
-                            <div class="h4">TODO</div>
-                            <p>Web Development</p>
+                            <div class="h4">MRS VIEWER</div>
+                            <p>Professional</p>
                           </figcaption>
                         </figure>
                       </a></div>
 
                     <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                       <a href="#web-development">
-                        <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image" />
+                        <figure class="cc-effect">
+                          <video autoplay loop muted playsinline>
+                            <source src="images/maillage.webm" type="video/webm">
+                          </video>
                           <figcaption>
-                            <div class="h4">TODO</div>
-                            <p>Web Development</p>
+                            <div class="h4">MESH OPTIMIZATION</div>
+                            <p>Academic</p>
                           </figcaption>
                         </figure>
                       </a></div>
@@ -426,6 +397,15 @@
     </div>
     <div class="h4 title text-center">Timothée Chabat</div>
     <div class="text-center text-muted">
+      <p>
+        <a class="credit" href="https://icons8.com/icon/108784/javascript">Javascript</a>,
+        <a class="credit" href="https://icons8.com/icon/40669/c++"> C++</a>,
+        <a class="credit" href="https://icons8.com/icon/13441/python"> Python</a> and
+        <a class="credit" href="https://icons8.com/icon/13679/java"> Java</a>
+        icons by Icons8.
+      </p>
+    </div>
+    <div class="text-center text-muted">
       <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
           target="_blank">TemplateFlip</a></p>
     </div>
@@ -436,6 +416,10 @@
   <script src="js/now-ui-kit.js?v=1.1.0"></script>
   <script src="js/aos.js"></script>
   <script src="scripts/main.js"></script>
+  <script>
+    for (x of document.getElementsByClassName('age'))
+      x.innerHTML = new Date().getFullYear() - 1998 ;
+  </script>
 </body>
 
 </html>
