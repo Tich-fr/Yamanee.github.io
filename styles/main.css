@@ -6113,3 +6113,7 @@ a.credit {
 .cc-contact-information {
   background-attachment: fixed;
 }
+
+#skill li {
+  margin: 1em 0;
+}
